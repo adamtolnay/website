@@ -19,6 +19,7 @@
                         <img src="images/after.png" alt=""><br>
                     </div>
                     <div class="about_text grid_4_9">
+                        <br>
                         About me
                         I grew up in Rockville, and am currently located in Bethesda. In my free time, you may find me cooking or reading. I majored in economics, and studied actuarial science. <br> 
                         <br>
@@ -48,13 +49,20 @@
         </div>
         <div class="contact grid">
             <div class="contact_forms grid_4_9 border">
-                <form>
-                    <br>
-                    <label for="contact">Contact me:</label><br>
-                    <input type="text" id="contact" name="contact"> <br>
-                    <input type="submit" value="Submit"> <br> 
-                    <br>
-                </form>
+                <div class="contact_content grid">
+                    <div class="contact_forms grid_4_9">
+                        <form>
+                            <br>
+                            <label for="contact">Contact me:</label><br>
+                            <textarea id="contact" name="contact" rows="4"></textarea> <br>
+                            <input type="submit" value="Submit"> <br> 
+                            <br>
+                            <br>
+                            <input type="button" value="Button" id="b1"> <br>
+                            <br>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="footer grid">
@@ -62,5 +70,6 @@
                 Footer
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>            
