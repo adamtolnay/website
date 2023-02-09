@@ -1,1 +1,1 @@
-document.getElementById("b1").addEventListener("click", () => {alert("You have clicked the button!")});
+document.getElementById("b1").addEventListener("click", () => {alert("You have clicked Submit!")});
